@@ -1,9 +1,7 @@
 import logging
 from logging.handlers import RotatingFileHandler
-
-from flask import Flask, session
+from flask import Flask
 from flask_session import Session
-from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
 from config import Config, config_dict
 
@@ -12,18 +10,18 @@ def create_app(config_name):
     """通过传入不同的配置名，切换不同的环境"""
     config = config_dict.get(config_name)
     # 设置日志级别
-    # TODO
     log_file(config.LEVEL)
+    # TODO
     app = Flask(__name__)
     # 导入app配置
     app.config.from_object(Config)
-
-    # 初始化redis配置(Strict:严格的)
-    # redis.StrictRedis(host=Config.REDIS_HOST, port=Config.REDIS_PORT)
     # 开启csrf保护，只用于服务器验证功能
     CSRFProtect(app)
     # 设置session保存指定位置
     Session(app)
+    # 注册蓝图时，导入和注册写在一起
+    from info.modules.index import index_blu
+    app.register_blueprint(index_blu)
     return app
 
 
