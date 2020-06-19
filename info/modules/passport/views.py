@@ -1,4 +1,5 @@
 import random
+from base64 import encode
 from datetime import datetime
 
 from flask import make_response, request, jsonify, current_app, json, session
@@ -172,7 +173,7 @@ def register():
 # 请求方式: POST
 # 请求参数: mobile, image_code,image_code_id
 # 返回值: errno, errmsg
-@passport_blu.route('/sms_code', methods=['POST'])
+@passport_blu.route('/sms_code', methods=["POST"])
 def get_sms_code():
     """
     思路分析:
@@ -193,6 +194,7 @@ def get_sms_code():
     dict_data = json.loads(json_data)
     mobile = dict_data.get('mobile')
     image_code = dict_data.get('image_code')
+    image_code = str.encode(image_code)
     image_code_id = dict_data.get('image_code_id')
 
     # 2.校验参数,为空检验,格式校验
