@@ -2,7 +2,7 @@ from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
 from flask_sqlalchemy import SQLAlchemy
 
-from info import create_app, models
+from info import create_app
 
 # 设置开发模式，创建app
 app = create_app('develop')

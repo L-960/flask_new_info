@@ -1,9 +1,13 @@
 import logging
 from logging.handlers import RotatingFileHandler
+
+import redis
 from flask import Flask
 from flask_session import Session
 from flask_wtf import CSRFProtect
 from config import Config, config_dict
+# 存储验证码
+redis_store = None
 
 
 def create_app(config_name):
@@ -16,13 +20,17 @@ def create_app(config_name):
     # 导入app配置
     app.config.from_object(Config)
     # 开启csrf保护，只用于服务器验证功能
+
+    global redis_store
+    redis_store = redis.StrictRedis(host=config.REDIS_HOST, port=config.REDIS_PORT)
+
     CSRFProtect(app)
     # 设置session保存指定位置
     Session(app)
     # 注册蓝图时，导入和注册写在一起
     from info.modules.index import index_blu
     app.register_blueprint(index_blu)
-    
+
     from info.modules.passport import passport_blu
     app.register_blueprint(passport_blu)
     return app
