@@ -1573,3 +1573,283 @@ INFO _internal.py:113 127.0.0.1 - - [19/Jun/2020 18:25:24] "[37mPOST /passport/
 INFO _internal.py:113 127.0.0.1 - - [19/Jun/2020 18:25:24] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [19/Jun/2020 18:25:51] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [19/Jun/2020 18:25:51] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/css/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/css/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/js/index.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/js/index.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/logo.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/logo.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/person01.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/person01.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/news_pic.jpg HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/news_pic.jpg HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/person.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/person.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/pic_code.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/pic_code.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/clock.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/clock.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:05] "[36mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:07] "[37mGET /passport/image_code?cur_id=e1854eaa-77e9-4058-ac1a-06199ee3f39e&pre_id= HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:07] "[37mGET /passport/image_code?cur_id=e1854eaa-77e9-4058-ac1a-06199ee3f39e&pre_id= HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:07] "[36mGET /static/news/images/shutoff.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:07] "[36mGET /static/news/images/shutoff.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:38] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:38] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:39] "[37mGET /passport/image_code?cur_id=82b410b9-67bd-4605-868b-151e080864e7&pre_id=e1854eaa-77e9-4058-ac1a-06199ee3f39e HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:39] "[37mGET /passport/image_code?cur_id=82b410b9-67bd-4605-868b-151e080864e7&pre_id=e1854eaa-77e9-4058-ac1a-06199ee3f39e HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:43] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:43] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:44] "[37mGET /passport/image_code?cur_id=52ef22f0-af77-410c-9391-e79715f7d595&pre_id=82b410b9-67bd-4605-868b-151e080864e7 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:44] "[37mGET /passport/image_code?cur_id=52ef22f0-af77-410c-9391-e79715f7d595&pre_id=82b410b9-67bd-4605-868b-151e080864e7 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:45] "[37mGET /passport/image_code?cur_id=857bc442-36a1-4b2b-b1fc-c0f292c4cbf0&pre_id=52ef22f0-af77-410c-9391-e79715f7d595 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:45] "[37mGET /passport/image_code?cur_id=857bc442-36a1-4b2b-b1fc-c0f292c4cbf0&pre_id=52ef22f0-af77-410c-9391-e79715f7d595 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:46] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:46] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:47] "[37mGET /passport/image_code?cur_id=dc1617d2-7374-458b-a0dc-64f66c2a030b&pre_id=857bc442-36a1-4b2b-b1fc-c0f292c4cbf0 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 20:57:47] "[37mGET /passport/image_code?cur_id=dc1617d2-7374-458b-a0dc-64f66c2a030b&pre_id=857bc442-36a1-4b2b-b1fc-c0f292c4cbf0 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:06:33] "[37mGET /passport/image_code?cur_id=b76b36e3-445f-46b3-8319-649cd9119b9b&pre_id=dc1617d2-7374-458b-a0dc-64f66c2a030b HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:06:33] "[37mGET /passport/image_code?cur_id=b76b36e3-445f-46b3-8319-649cd9119b9b&pre_id=dc1617d2-7374-458b-a0dc-64f66c2a030b HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:06:35] "[37mGET /passport/image_code?cur_id=57043ca7-9f61-40ed-a0c0-48cb841891c4&pre_id=b76b36e3-445f-46b3-8319-649cd9119b9b HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:06:35] "[37mGET /passport/image_code?cur_id=57043ca7-9f61-40ed-a0c0-48cb841891c4&pre_id=b76b36e3-445f-46b3-8319-649cd9119b9b HTTP/1.1[0m" 200 -
+DEBUG views.py:231 ∂Ã–≈—È÷§¬Î = 135452
+DEBUG views.py:231 ∂Ã–≈—È÷§¬Î = 135452
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:06:44] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:06:44] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:07:03] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:07:03] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:11:52] "[37mGET /passport/image_code?cur_id=b7890816-b5b1-4e05-a656-54017f80e361&pre_id=57043ca7-9f61-40ed-a0c0-48cb841891c4 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:11:52] "[37mGET /passport/image_code?cur_id=b7890816-b5b1-4e05-a656-54017f80e361&pre_id=57043ca7-9f61-40ed-a0c0-48cb841891c4 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:11:53] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:11:53] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:12:41] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:12:41] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:12:42] "[37mGET /passport/image_code?cur_id=1575ad3d-6f55-456f-9767-666329138d13&pre_id=b7890816-b5b1-4e05-a656-54017f80e361 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:12:42] "[37mGET /passport/image_code?cur_id=1575ad3d-6f55-456f-9767-666329138d13&pre_id=b7890816-b5b1-4e05-a656-54017f80e361 HTTP/1.1[0m" 200 -
+DEBUG views.py:231 ∂Ã–≈—È÷§¬Î = 127420
+DEBUG views.py:231 ∂Ã–≈—È÷§¬Î = 127420
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:12:51] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:12:51] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:14:22] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:14:22] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:15:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:15:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:15:51] "[37mGET /passport/image_code?cur_id=44283348-37eb-4faa-9630-22d5040997a8&pre_id= HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:15:51] "[37mGET /passport/image_code?cur_id=44283348-37eb-4faa-9630-22d5040997a8&pre_id= HTTP/1.1[0m" 200 -
+DEBUG views.py:232 ∂Ã–≈—È÷§¬Î = 917438
+DEBUG views.py:232 ∂Ã–≈—È÷§¬Î = 917438
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:16:04] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:16:04] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+ERROR views.py:164 (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to MySQL server on '127.0.0.1' (10061)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+ERROR views.py:164 (MySQLdb._exceptions.OperationalError) (2002, "Can't connect to MySQL server on '127.0.0.1' (10061)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:16:21] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:16:21] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:16:29] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:16:29] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:17] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:17] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:18] "[37mGET /passport/image_code?cur_id=fe07b140-9e06-4a7d-96db-c65f1d524806&pre_id=44283348-37eb-4faa-9630-22d5040997a8 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:18] "[37mGET /passport/image_code?cur_id=fe07b140-9e06-4a7d-96db-c65f1d524806&pre_id=44283348-37eb-4faa-9630-22d5040997a8 HTTP/1.1[0m" 200 -
+DEBUG views.py:232 ∂Ã–≈—È÷§¬Î = 803287
+DEBUG views.py:232 ∂Ã–≈—È÷§¬Î = 803287
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:30] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:30] "[37mPOST /passport/sms_code HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO info_user (create_time, update_time, nick_name, password_hash, mobile, avatar_url, last_login, is_admin, signature, gender) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+INFO log.py:110 INSERT INTO info_user (create_time, update_time, nick_name, password_hash, mobile, avatar_url, last_login, is_admin, signature, gender) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+INFO log.py:110 (datetime.datetime(2020, 6, 21, 21, 17, 43, 803964), datetime.datetime(2020, 6, 21, 21, 17, 43, 803964), '17642111970', 'pbkdf2:sha256:150000$TlzQcrLF$e7179c5f41e3fbbc2a65fcb4eaf8e6700d31392733e03cbad2a40357264435c1', '17642111970', None, datetime.datetime(2020, 6, 21, 21, 17, 43, 803964), 0, None, 'MAN')
+INFO log.py:110 (datetime.datetime(2020, 6, 21, 21, 17, 43, 803964), datetime.datetime(2020, 6, 21, 21, 17, 43, 803964), '17642111970', 'pbkdf2:sha256:150000$TlzQcrLF$e7179c5f41e3fbbc2a65fcb4eaf8e6700d31392733e03cbad2a40357264435c1', '17642111970', None, datetime.datetime(2020, 6, 21, 21, 17, 43, 803964), 0, None, 'MAN')
+INFO log.py:110 COMMIT
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:43] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:43] "[37mPOST /passport/register HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:17:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:19:25] "[37mGET /passport/image_code?cur_id=df2a9de2-9daa-429d-8316-81b8249312c1&pre_id= HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:19:25] "[37mGET /passport/image_code?cur_id=df2a9de2-9daa-429d-8316-81b8249312c1&pre_id= HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:25:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:25:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:25:49] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:25:49] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:25:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:25:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:25:49] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:25:49] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.mobile = %s 
+ LIMIT %s
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.mobile = %s 
+ LIMIT %s
+INFO log.py:110 ('17642111970', 1)
+INFO log.py:110 ('17642111970', 1)
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:00] "[37mPOST /passport/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:00] "[37mPOST /passport/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/css/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/css/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/logo.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/logo.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/person01.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/person01.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/news_pic.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/news_pic.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/person.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/person.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/pic_code.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/pic_code.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/clock.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/clock.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:11] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:28] "[37mGET /static/news/images/shutoff.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:28] "[37mGET /static/news/images/shutoff.png HTTP/1.1[0m" 200 -
+INFO log.py:110 UPDATE info_user SET update_time=%s, last_login=%s WHERE info_user.id = %s
+INFO log.py:110 UPDATE info_user SET update_time=%s, last_login=%s WHERE info_user.id = %s
+INFO log.py:110 (datetime.datetime(2020, 6, 21, 21, 26, 36, 572128), datetime.datetime(2020, 6, 21, 21, 26, 0, 472765), 1)
+INFO log.py:110 (datetime.datetime(2020, 6, 21, 21, 26, 36, 572128), datetime.datetime(2020, 6, 21, 21, 26, 0, 472765), 1)
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.mobile = %s 
+ LIMIT %s
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.mobile = %s 
+ LIMIT %s
+INFO log.py:110 ('17642111970', 1)
+INFO log.py:110 ('17642111970', 1)
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:36] "[37mPOST /passport/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:36] "[37mPOST /passport/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:39] "[37mGET /passport/image_code?cur_id=d9edc35d-ded7-48e8-9285-d156b99d06b5&pre_id= HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:26:39] "[37mGET /passport/image_code?cur_id=d9edc35d-ded7-48e8-9285-d156b99d06b5&pre_id= HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:35:01] "[37mGET /passport/image_code?cur_id=a2db2025-3fc8-4ecd-b4c7-39a85c6e786a&pre_id=d9edc35d-ded7-48e8-9285-d156b99d06b5 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [21/Jun/2020 21:35:01] "[37mGET /passport/image_code?cur_id=a2db2025-3fc8-4ecd-b4c7-39a85c6e786a&pre_id=d9edc35d-ded7-48e8-9285-d156b99d06b5 HTTP/1.1[0m" 200 -

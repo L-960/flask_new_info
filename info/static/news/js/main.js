@@ -134,6 +134,7 @@ $(function () {
             success: function (resp) {
                 //判断是否登陆成功
                 if (resp.errno == '0') {
+                    alert("登录成功")
                     window.location.reload()
                 } else {
                     alert(resp.errmsg);
@@ -193,6 +194,7 @@ $(function () {
                 //判断是否注册成功
                 if (resp.errno == '0') {
                     //重新加载当前页面
+                    alert("注册成功")
                     window.location.reload()
                 } else {
                     alert(resp.errmsg);
@@ -271,7 +273,7 @@ function sendSMSCode() {
         type: 'post',
         data: JSON.stringify(params),
         contentType: 'application/json',
-        headers:{'X-CSRFToken':getCookie('csrf_token')  },
+        headers: {'X-CSRFToken': getCookie('csrf_token')},
         // headers: {"X-CSRFToken": csrftoken},
 
         success: function (resp) {

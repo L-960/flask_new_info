@@ -1,5 +1,4 @@
 import random
-from base64 import encode
 from datetime import datetime
 
 from flask import make_response, request, jsonify, current_app, json, session
@@ -118,6 +117,7 @@ def register():
     dict_data = request.json
     mobile = dict_data.get('mobile')
     sms_code = dict_data.get('sms_code')
+    sms_code = str.encode(sms_code)
     password = dict_data.get('password')
 
     # 2.校验参数,为空校验
