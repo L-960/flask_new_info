@@ -161,6 +161,7 @@ def register():
         db.session.commit()
     except Exception as e:
         current_app.logger.error(e)
+        # 使用db.session.commit()，必须处理异常回滚db.session.rollback()
         db.session.rollback()
         return jsonify(errno=RET.DBERR, errmsg="用户注册失败")
 

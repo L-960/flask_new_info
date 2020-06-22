@@ -4,10 +4,14 @@ from logging.handlers import RotatingFileHandler
 import redis
 from flask import Flask
 from flask_session import Session
+from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
 from config import Config, config_dict
+
 # 存储验证码
 redis_store = None
+
+db = SQLAlchemy()
 
 
 def create_app(config_name):
@@ -21,6 +25,9 @@ def create_app(config_name):
     app.config.from_object(Config)
     # 开启csrf保护，只用于服务器验证功能
 
+    # 创建SQLAlchemy对象,关联app
+    db.init_app(app)
+
     global redis_store
     redis_store = redis.StrictRedis(host=config.REDIS_HOST, port=config.REDIS_PORT)
 
@@ -33,6 +40,11 @@ def create_app(config_name):
 
     from info.modules.passport import passport_blu
     app.register_blueprint(passport_blu)
+
+    # 添加自定义过滤器
+    from info.utils.common import do_index_class
+    app.add_template_filter(do_index_class, "index_class")
+
     return app
 
 
