@@ -1,5 +1,6 @@
-from flask import render_template
+from flask import render_template, session, current_app
 
+from info.models import User
 from info.modules.news import news_blu
 
 
