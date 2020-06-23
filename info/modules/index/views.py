@@ -75,10 +75,11 @@ def get_news_list():
     try:
         # 加过滤条件的查询
         paginate = News.query.filter(*filters).order_by(News.create_time.desc()).paginate(page, per_page, False)
-        # 获取查询的数据
+        # 获取查询的数据,返回当前页的所有数据
         items = paginate.items
         # h获取总页数
         total_page = paginate.pages
+        # 当前页数
         current_page = paginate.page
     except Exception as e:
         current_app.logger.error(e)

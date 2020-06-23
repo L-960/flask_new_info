@@ -1,7 +1,7 @@
 var currentCid = 1; // 当前分类 id
 var cur_page = 1; // 当前页
 var total_page = 1;  // 总页数
-var data_querying = true;   // 是否正在向后台获取数据
+var house_data_querying = true;   // 是否正在向后台获取数据
 
 
 $(function () {
@@ -43,6 +43,18 @@ $(function () {
 
         if ((canScrollHeight - nowScroll) < 100) {
             // TODO 判断页数，去更新新闻数据
+
+            if (!house_data_querying) {
+                //将是否发送数据设置为真
+                house_data_querying = true;
+
+                if (cur_page < total_page) {
+                    // 调用updateNewsData方法更新数据
+                    updateNewsData()
+                } else {
+                    house_data_querying = false;
+                }
+            }
         }
     })
 })
@@ -50,21 +62,31 @@ $(function () {
 function updateNewsData() {
     // TODO 更新新闻数据
     var params = {
-        "page": 1,
+        "page": cur_page,
         "per_page": 10,
         "cid": currentCid
     }
-    $.get("/newslist", params,function (resp) {
-        if (resp){
+    $.get("/newslist", params, function (resp) {
+
+        //将house_data_querying设置为false 以便下次滚动加载
+        house_data_querying = false;
+
+        if (resp) {
+            total_page = resp.totalPage
             //清空原来数据
-            $(".list_con").html("")
+            if (cur_page == 1) {
+
+                $(".list_con").html("")
+            }
+            //每调用一次，要更新cur_page
+            cur_page +=1;
             // 显示数据
-            for (var i=0; i < resp.newsList.length; i++){
+            for (var i = 0; i < resp.newsList.length; i++) {
                 var news = resp.newsList[i]
                 var content = '<li>'
-                content += '<a href="#" class="news_pic fl"><img src="' + news.index_image_url + '?imageView2/1/w/170/h/170"></a>'
-                content += '<a href="#" class="news_title fl">' + news.title + '</a>'
-                content += '<a href="#" class="news_detail fl">' + news.digest + '</a>'
+                content += '<a href="/news/'+news.id+'" class="news_pic fl"><img src="' + news.index_image_url + '?imageView2/1/w/170/h/170"></a>'
+                content += '<a href="/news/'+news.id+'" class="news_title fl">' + news.title + '</a>'
+                content += '<a href="/news/'+news.id+'" class="news_detail fl">' + news.digest + '</a>'
                 content += '<div class="author_info fl">'
                 content += '<div class="source fl">来源：' + news.source + '</div>'
                 content += '<div class="time fl">' + news.create_time + '</div>'

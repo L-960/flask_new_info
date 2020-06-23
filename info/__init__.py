@@ -6,6 +6,8 @@ from flask import Flask
 from flask_session import Session
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
+from flask_wtf.csrf import generate_csrf
+
 from config import Config, config_dict
 
 # 存储验证码
@@ -31,7 +33,7 @@ def create_app(config_name):
     global redis_store
     redis_store = redis.StrictRedis(host=config.REDIS_HOST, port=config.REDIS_PORT)
 
-    # CSRFProtect(app)
+    CSRFProtect(app)
     # 设置session保存指定位置
     Session(app)
     # 注册蓝图时，导入和注册写在一起
@@ -41,9 +43,20 @@ def create_app(config_name):
     from info.modules.passport import passport_blu
     app.register_blueprint(passport_blu)
 
+    from info.modules.news import news_blu
+    app.register_blueprint(news_blu)
+
     # 添加自定义过滤器
     from info.utils.common import do_index_class
     app.add_template_filter(do_index_class, "index_class")
+
+    @app.after_request
+    def after_request(response):
+        # 调用生成csrf的函数
+        csrf_token = generate_csrf()
+        # 通过cookie传递给前台
+        response.set_cookie("csrf_token", csrf_token)
+        return response
 
     return app
 
