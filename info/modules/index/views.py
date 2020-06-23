@@ -51,7 +51,7 @@ def index():
     return render_template('news/index.html', data=data)
 
 
-@index_blu.route('/newlist')
+@index_blu.route('/newslist')
 def get_news_list():
     # 获取参数
     args_dict = request.args
@@ -90,9 +90,13 @@ def get_news_list():
         news_li.append(news.to_basic_dict())
 
     return jsonify(errno=RET.OK, errmsg="OK",
+                   # 总页数
                    totalPage=total_page,
+                   # 当前页
                    currentPage=current_page,
+                   # 当前页的新闻数据
                    newsList=news_li,
+                   # 分类id
                    cid=category_id)
     # 返回数据
 

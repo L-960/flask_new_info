@@ -5919,3 +5919,1801 @@ INFO _internal.py:113 127.0.0.1 - - [22/Jun/2020 21:19:27] "[37mGET / HTTP/1.1
 INFO _internal.py:113 127.0.0.1 - - [22/Jun/2020 21:19:27] "[37mGET / HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [22/Jun/2020 21:19:27] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [22/Jun/2020 21:19:27] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/css/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/css/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:25] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/clock.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/clock.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/news_pic.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/news_pic.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/logo.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/logo.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/person.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/person.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/pic_code.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:26] "[37mGET /static/news/images/pic_code.png HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:37] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:37] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:37] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:37] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/css/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/css/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/images/logo.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[37mGET /static/news/images/logo.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:43] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:44] "[37mGET /static/news/images/pic_code.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:44] "[37mGET /static/news/images/pic_code.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:44] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:44] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:54] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:54] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:54] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:46:54] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/css/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/css/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/js/main.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/js/main.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/images/logo.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/images/logo.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/images/pic_code.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/images/pic_code.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:05] "[36mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:06] "[33mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:06] "[33mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:07] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:07] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:49] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:49] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:49] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:49] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:50] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:47:51] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:49:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:49:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:49:18] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:49:18] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:50:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:50:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:50:30] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:50:30] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:50:52] "[33mGET //newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:50:52] "[33mGET //newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:50:55] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:50:55] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:48] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:48] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[33mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[33mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:51] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:53] "[37mGET /static/news/images/shutoff.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:51:53] "[37mGET /static/news/images/shutoff.png HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.mobile = %s 
+ LIMIT %s
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.mobile = %s 
+ LIMIT %s
+INFO log.py:110 ('17642111970', 1)
+INFO log.py:110 ('17642111970', 1)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:01] "[37mPOST /passport/login HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:01] "[37mPOST /passport/login HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:03] "[37mGET /static/news/images/person01.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:03] "[37mGET /static/news/images/person01.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:03] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:03] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:05] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:05] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:05] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:05] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:06] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:06] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:06] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:52:06] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/css/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/css/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/js/jquery-1.12.4.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/js/main.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/images/logo.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/images/logo.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/images/hit_icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/images/person01.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/images/person01.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[33mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/images/pic_code.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /static/news/images/pic_code.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:00] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:113  * Detected change in 'E:\\GitHub\\flask_new_info\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Debugger PIN: 231-526-182
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user 
+WHERE info_user.id = %s
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %s
+INFO log.py:110 (10,)
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 SELECT info_category.create_time AS info_category_create_time, info_category.update_time AS info_category_update_time, info_category.id AS info_category_id, info_category.name AS info_category_name 
+FROM info_category
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_user.create_time AS info_user_create_time, info_user.update_time AS info_user_update_time, info_user.id AS info_user_id, info_user.nick_name AS info_user_nick_name, info_user.password_hash AS info_user_password_hash, info_user.mobile AS info_user_mobile, info_user.avatar_url AS info_user_avatar_url, info_user.last_login AS info_user_last_login, info_user.is_admin AS info_user_is_admin, info_user.signature AS info_user_signature, info_user.gender AS info_user_gender 
+FROM info_user, info_user_fans 
+WHERE %s = info_user_fans.followed_id AND info_user.id = info_user_fans.follower_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE %s = info_news.user_id) AS anon_1
+INFO log.py:110 (1,)
+INFO log.py:110 (1,)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 (0, 10)
+INFO log.py:110 (0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:33] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:33] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:33] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:33] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:33] "[37mGET /static/news/images/clock.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:33] "[37mGET /static/news/images/clock.png HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('2',)
+INFO log.py:110 ('2',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:40] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:40] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('3',)
+INFO log.py:110 ('3',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:41] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:41] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('4',)
+INFO log.py:110 ('4',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:41] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:41] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('5', 0, 10)
+INFO log.py:110 ('5', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('5',)
+INFO log.py:110 ('5',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:42] "[37mGET /newslist?page=1&per_page=10&cid=5 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:42] "[37mGET /newslist?page=1&per_page=10&cid=5 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 (0, 10)
+INFO log.py:110 (0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:43] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:43] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('4',)
+INFO log.py:110 ('4',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:44] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:44] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('6', 0, 10)
+INFO log.py:110 ('6', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('6',)
+INFO log.py:110 ('6',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:45] "[37mGET /newslist?page=1&per_page=10&cid=6 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:45] "[37mGET /newslist?page=1&per_page=10&cid=6 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('5', 0, 10)
+INFO log.py:110 ('5', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('5',)
+INFO log.py:110 ('5',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:45] "[37mGET /newslist?page=1&per_page=10&cid=5 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:45] "[37mGET /newslist?page=1&per_page=10&cid=5 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('3',)
+INFO log.py:110 ('3',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:46] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:46] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 (0, 10)
+INFO log.py:110 (0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:46] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:46] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('3',)
+INFO log.py:110 ('3',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:46] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:46] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('4',)
+INFO log.py:110 ('4',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:47] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:47] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('6', 0, 10)
+INFO log.py:110 ('6', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('6',)
+INFO log.py:110 ('6',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:47] "[37mGET /newslist?page=1&per_page=10&cid=6 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:53:47] "[37mGET /newslist?page=1&per_page=10&cid=6 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 ('2', 0, 10)
+ERROR views.py:84 (MySQLdb._exceptions.OperationalError) (2013, 'Lost connection to MySQL server during query')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s]
+[parameters: ('2', 0, 10)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+ERROR views.py:84 (MySQLdb._exceptions.OperationalError) (2013, 'Lost connection to MySQL server during query')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s]
+[parameters: ('2', 0, 10)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:13] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:13] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 (0, 10)
+INFO log.py:110 (0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:14] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:14] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('2',)
+INFO log.py:110 ('2',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:15] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:15] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('3',)
+INFO log.py:110 ('3',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:15] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:15] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 (0, 10)
+INFO log.py:110 (0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:16] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:16] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('2',)
+INFO log.py:110 ('2',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:26] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:26] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('3',)
+INFO log.py:110 ('3',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:29] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:29] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('4',)
+INFO log.py:110 ('4',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:32] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:32] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('5', 0, 10)
+INFO log.py:110 ('5', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('5',)
+INFO log.py:110 ('5',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:35] "[37mGET /newslist?page=1&per_page=10&cid=5 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:35] "[37mGET /newslist?page=1&per_page=10&cid=5 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('6', 0, 10)
+INFO log.py:110 ('6', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('6',)
+INFO log.py:110 ('6',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:36] "[37mGET /newslist?page=1&per_page=10&cid=6 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:36] "[37mGET /newslist?page=1&per_page=10&cid=6 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 (0, 10)
+INFO log.py:110 (0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:37] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:37] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('2',)
+INFO log.py:110 ('2',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:44] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:44] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 (0, 10)
+INFO log.py:110 (0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:45] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:45] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 ('2', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('2',)
+INFO log.py:110 ('2',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:49] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:49] "[37mGET /newslist?page=1&per_page=10&cid=2 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 ('3', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('3',)
+INFO log.py:110 ('3',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:50] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:50] "[37mGET /newslist?page=1&per_page=10&cid=3 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 ('4', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('4',)
+INFO log.py:110 ('4',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:50] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:50] "[37mGET /newslist?page=1&per_page=10&cid=4 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('5', 0, 10)
+INFO log.py:110 ('5', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('5',)
+INFO log.py:110 ('5',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:51] "[37mGET /newslist?page=1&per_page=10&cid=5 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:51] "[37mGET /newslist?page=1&per_page=10&cid=5 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('6', 0, 10)
+INFO log.py:110 ('6', 0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news 
+WHERE info_news.category_id = %s) AS anon_1
+INFO log.py:110 ('6',)
+INFO log.py:110 ('6',)
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:51] "[37mGET /newslist?page=1&per_page=10&cid=6 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:51] "[37mGET /newslist?page=1&per_page=10&cid=6 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 (0, 10)
+INFO log.py:110 (0, 10)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.status AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:52] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Jun/2020 17:57:52] "[37mGET /newslist?page=1&per_page=10&cid=1 HTTP/1.1[0m" 200 -
